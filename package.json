@@ -1,0 +1,19 @@
+{
+  "name": "my-diy",
+  "version": "1.0.0",
+  "description": "\"Digitales Gesellenstück\" // neue fische // MY DIY - it's all about DIY projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kathrin92/MY-DIY.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kathrin92/MY-DIY/issues"
+  },
+  "homepage": "https://github.com/Kathrin92/MY-DIY#readme"
+}
