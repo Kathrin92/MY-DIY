@@ -1,0 +1,50 @@
+{
+  "name": "my-diy",
+  "version": "1.0.0",
+  "description": "\"Digitales Gesellenstück\" // neue fische // MY DIY - it's all about DIY projects.",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build && npm run build-storybook",
+    "storybook": "cd client && npm run storybook",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\" \"npm run storybook\"",
+    "dev:server": "npm run build && cd .. && npm start",
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kathrin92/MY-DIY.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kathrin92/MY-DIY/issues"
+  },
+  "homepage": "https://github.com/Kathrin92/MY-DIY#readme",
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.1.2",
+    "nodemon": "^2.0.2",
+    "prettier": "^2.0.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": "eslint --fix",
+    "+.{js,jsx,ts,tsx,md,html,css)": "prettier --write"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5"
+  }
+}
