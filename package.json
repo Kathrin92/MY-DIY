@@ -4,7 +4,7 @@
   "description": "\"Digitales Gesellenstück\" // neue fische // MY DIY - it's all about DIY projects.",
   "private": true,
   "scripts": {
-    "heroku-prebuild": "cd client && npm i",
+    "heroku-prebuild": "cd client && npm ci",
     "client": "cd client && npm start",
     "build": "cd client && npm run build && npm run build-storybook",
     "storybook": "cd client && npm run storybook",
@@ -17,7 +17,9 @@
     "url": "git+https://github.com/Kathrin92/MY-DIY.git"
   },
   "author": "Kathrin Ulmer",
+
   "license": "MIT",
+
   "bugs": {
     "url": "https://github.com/Kathrin92/MY-DIY/issues"
   },
