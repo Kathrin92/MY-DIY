@@ -9,7 +9,6 @@
     "build": "cd client && npm run build && npm run build-storybook",
     "storybook": "cd client && npm run storybook",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\" \"npm run storybook\"",
-    "dev:server": "npm run build && cd .. && npm start",
     "server": "nodemon index.js",
     "start": "node index.js"
   },
@@ -18,7 +17,9 @@
     "url": "git+https://github.com/Kathrin92/MY-DIY.git"
   },
   "author": "Kathrin Ulmer",
-  "license": "ISC",
+
+  "license": "MIT",
+
   "bugs": {
     "url": "https://github.com/Kathrin92/MY-DIY/issues"
   },
@@ -47,5 +48,9 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongodb": "^3.5.5"
-  }
+  },
+  "cacheDirectories": [
+    "client/node_modules",
+    "node_modules"
+  ]
 }
