@@ -1,16 +1,16 @@
 import React from 'react';
-import { Input } from '../components/Input';
+import LoginInput from '../components/Input';
+import ProjectInput from '../components/ProjectInput';
 
 export default {
-  title: 'LoginInput',
+  title: 'Input',
 };
 
-export const MailLogin = () => <Input placeholder="E-mail" type="email" />;
-export const PasswordLogin = () => (
-  <Input placeholder="Passwort" type="password" />
+export const MailLogin = (props) => (
+  <LoginInput placeholder="E-mail" type="email" {...props} />
 );
-export const NameSignUp = () => <Input placeholder="Name" type="name" />;
-export const MailSignUp = () => <Input placeholder="＠E-mail" type="email" />;
-export const PasswordSignUp = () => (
-  <Input placeholder="Passwort" type="password" />
+export const PasswordLogin = (props) => (
+  <LoginInput placeholder="Passwort" type="password" {...props} />
 );
+
+export const NameInput = () => <ProjectInput placeholder="Projektname" />;
