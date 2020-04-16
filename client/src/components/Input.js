@@ -18,7 +18,7 @@ export const LoginInput = styled(Input)`
   padding: 0px 0px;
   outline: none;
   cursor: pointer;
-  ::-webkit-input-placeholder {
+  &::placeholder {
     text-align: center;
     color: #b7b7b7;
   }
