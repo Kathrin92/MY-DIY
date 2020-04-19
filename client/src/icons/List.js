@@ -6,7 +6,7 @@ const SVG = styled.svg`
   fill: ${(props) => (props.active ? 'red' : '#999')};
 `;
 
-function Heart({ active }) {
+function List({ active }) {
   return (
     <SVG
       xmls="https://www.w3.org/2000/svg"
@@ -23,8 +23,8 @@ function Heart({ active }) {
   );
 }
 
-Heart.propTypes = {
+List.propTypes = {
   active: PropTypes.bool,
 };
 
-export default Heart;
+export default List;

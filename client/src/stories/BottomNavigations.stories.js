@@ -2,7 +2,7 @@ import React from 'react';
 import BottomNavigation from '../components/BottomNavigation';
 import { withKnobs, text } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
-import Heart from '../icons/Heart';
+import List from '../icons/List';
 
 export default {
   title: 'Bottom Navigations',
@@ -15,15 +15,15 @@ export const Default = () => {
       links={[
         {
           label: 'New',
-          Icon: Heart,
+          Icon: List,
         },
         {
           label: 'List',
-          Icon: Heart,
+          Icon: List,
         },
         {
           label: 'Progress',
-          Icon: Heart,
+          Icon: List,
         },
       ]}
       value={text('value', 'New')}
