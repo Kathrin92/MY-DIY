@@ -13,6 +13,6 @@ export const LoginButton = () => (
 export const SignUpButton = () => (
   <Button onClick={action('clicked')}>Konto anlegen</Button>
 );
-export const CreateButton = () => (
+export const SaveButton = () => (
   <Button onClick={action('clicked')}>Los geht&#39;s!</Button>
 );
