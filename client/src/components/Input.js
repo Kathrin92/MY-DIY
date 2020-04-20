@@ -7,14 +7,12 @@ const Input = styled.input`
 
 export const LoginInput = styled(Input)`
   text-align: center;
-  width: 274px;
-  height: 60px;
   background: white;
   color: white;
   border: 1px #707070 solid;
   border-radius: 30px;
   box-shadow: 0px 3px 6px grey;
-  font-size: 22px;
+  font-size: 1.2rem;
   padding: 0px 0px;
   outline: none;
   cursor: pointer;
