@@ -1,11 +1,6 @@
 import styled from '@emotion/styled';
 
 const Input = styled.input`
-  outline: none;
-  cursor: pointer;
-`;
-
-export const LoginInput = styled(Input)`
   text-align: center;
   background: white;
   color: white;
