@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56.24" height="56.775" viewBox="0 0 56.24 56.775">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+      .cls-2 {
+        filter: url(#Icon_awesome-plus-circle);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0E0F09"/>
+      <stop offset="1" stop-color="#0E0F09"/>
+    </linearGradient>
+    <filter id="Icon_awesome-plus-circle" x="0" y="0" width="56.24" height="56.775" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="Icon_awesome-plus-circle-2" data-name="Icon awesome-plus-circle" class="cls-1" d="M19.683.562A19.252,19.252,0,0,0,.563,19.95a19.252,19.252,0,0,0,19.12,19.388A19.252,19.252,0,0,0,38.8,19.95,19.252,19.252,0,0,0,19.683.562Zm11.1,21.577a.934.934,0,0,1-.925.938H22.767v7.192a.934.934,0,0,1-.925.938H17.524a.934.934,0,0,1-.925-.938V23.077H9.506a.934.934,0,0,1-.925-.938V17.761a.934.934,0,0,1,.925-.938H16.6V9.631a.934.934,0,0,1,.925-.938h4.317a.934.934,0,0,1,.925.938v7.192H29.86a.934.934,0,0,1,.925.938Z" transform="translate(8.44 5.44)"/>
+  </g>
+</svg>

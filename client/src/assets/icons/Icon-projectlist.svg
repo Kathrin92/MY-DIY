@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53.967" height="60.771" viewBox="0 0 53.967 60.771">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+      .cls-2 {
+        filter: url(#Icon_awesome-clipboard-list);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#E0F09"/>
+      <stop offset="1" stop-color="#0E0F09"/>
+    </linearGradient>
+    <filter id="Icon_awesome-clipboard-list" x="0" y="0" width="53.967" height="60.771" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="Icon_awesome-clipboard-list-2" data-name="Icon awesome-clipboard-list" class="cls-1" d="M31.471,5.346H23.978C23.978,2.4,21.29,0,17.984,0s-5.995,2.4-5.995,5.346H4.5A4.275,4.275,0,0,0,0,9.356v29.4a4.275,4.275,0,0,0,4.5,4.01H31.471a4.275,4.275,0,0,0,4.5-4.01V9.356A4.275,4.275,0,0,0,31.471,5.346ZM8.992,35.42a2.018,2.018,0,1,1,0-4.01,2.018,2.018,0,1,1,0,4.01Zm0-8.02a2.018,2.018,0,1,1,0-4.01,2.018,2.018,0,1,1,0,4.01Zm0-8.02a2.132,2.132,0,0,1-2.248-2,2.132,2.132,0,0,1,2.248-2,2.132,2.132,0,0,1,2.248,2A2.132,2.132,0,0,1,8.992,19.38ZM17.984,3.341a2.132,2.132,0,0,1,2.248,2,2.132,2.132,0,0,1-2.248,2,2.132,2.132,0,0,1-2.248-2A2.132,2.132,0,0,1,17.984,3.341ZM29.973,34.083a.714.714,0,0,1-.749.668H15.736a.714.714,0,0,1-.749-.668V32.746a.714.714,0,0,1,.749-.668H29.223a.714.714,0,0,1,.749.668Zm0-8.02a.714.714,0,0,1-.749.668H15.736a.714.714,0,0,1-.749-.668V24.727a.714.714,0,0,1,.749-.668H29.223a.714.714,0,0,1,.749.668Zm0-8.02a.714.714,0,0,1-.749.668H15.736a.714.714,0,0,1-.749-.668V16.707a.714.714,0,0,1,.749-.668H29.223a.714.714,0,0,1,.749.668Z" transform="translate(9 6)"/>
+  </g>
+</svg>
