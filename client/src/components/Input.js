@@ -1,22 +1,22 @@
 import styled from '@emotion/styled';
 
 const Input = styled.input`
-  outline: none;
-  cursor: pointer;
-`;
-
-export const LoginInput = styled(Input)`
+  display: flex;
+  justify-content: center;
   text-align: center;
-  width: 274px;
-  height: 60px;
   background: white;
-  color: white;
-  border: 1px #707070 solid;
-  border-radius: 30px;
+  color: #a2a2a1;
+  border: 1px #a2a2a1 solid;
+  border-radius: 10px;
   box-shadow: 0px 3px 6px grey;
-  font-size: 22px;
+  font-size: 1.2rem;
   padding: 0px 0px;
   outline: none;
+  &:hover {
+    color: #ffffff;
+    border: 3px #a2a2a1 solid;
+  }
+
   cursor: pointer;
   &::placeholder {
     text-align: center;
