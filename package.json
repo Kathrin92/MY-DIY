@@ -10,7 +10,7 @@
     "storybook": "cd client && npm run storybook",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\" \"npm run storybook\"",
     "server": "nodemon index.js",
-    "api": "json-server --watch db.json --port 4000",
+    "api": "json-server --watch db.json",
     "start": "node index.js"
   },
   "repository": {
@@ -47,7 +47,8 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "json-server": "^0.16.1",
-    "mongodb": "^3.5.5"
+    "mongodb": "^3.5.5",
+    "react-query": "^1.2.9"
   },
   "cacheDirectories": [
     "client/node_modules",
