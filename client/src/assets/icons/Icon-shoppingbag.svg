@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66.534" height="56.9" viewBox="0 0 66.534 56.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+      .cls-2 {
+        filter: url(#Icon awesome-shopping-bag);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0E0F09"/>
+      <stop offset="1" stop-color="#0E0F09"/>
+    </linearGradient>
+    <filter id="Icon awesome-shopping-bag" x="0" y="0" width="66.534" height="56.9" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="Icon awesome-shopping-bag-2" data-name="Icon awesome-shopping-bag" class="cls-1" d="M23.622,12.345,8.089,25.532V39.764a1.369,1.369,0,0,0,1.348,1.389l9.441-.025a1.369,1.369,0,0,0,1.341-1.389V31.428a1.369,1.369,0,0,1,1.348-1.389H26.96a1.369,1.369,0,0,1,1.348,1.389v8.305a1.412,1.412,0,0,0,.393.985,1.328,1.328,0,0,0,.955.408l9.438.027a1.369,1.369,0,0,0,1.348-1.389V25.522L24.911,12.345A1,1,0,0,0,23.622,12.345Zm24.537,8.963-7.044-5.984V3.3A1.027,1.027,0,0,0,40.1,2.254H35.387A1.027,1.027,0,0,0,34.376,3.3V9.6L26.832,3.2a3.952,3.952,0,0,0-5.139,0L.366,21.308a1.064,1.064,0,0,0-.135,1.468L2.38,25.468a1,1,0,0,0,.684.375.991.991,0,0,0,.741-.234L23.622,8.785a1,1,0,0,1,1.289,0L44.73,25.609a.991.991,0,0,0,1.424-.139L48.3,22.778a1.064,1.064,0,0,0,.225-.766,1.052,1.052,0,0,0-.368-.7Z" transform="translate(9 3.75)"/>
+  </g>
+</svg>
