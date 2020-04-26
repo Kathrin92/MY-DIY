@@ -1,7 +1,11 @@
+const express = require('express');
+const path = require('path');
 const jsonServer = require('json-server');
 const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
+
+const port = process.env.PORT || 8080;
 
 server.use(
   jsonServer.rewriter({
@@ -10,6 +14,15 @@ server.use(
 );
 server.use(middlewares);
 server.use(router);
-server.listen(8080, () => {
-  console.log('JSON Server is running');
+
+if (process.env.NODE_ENV === 'production') {
+  server.use(express.static(path.join(__dirname, 'client/build')));
+
+  server.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+  });
+}
+
+server.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`);
 });
