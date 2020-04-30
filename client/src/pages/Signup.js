@@ -31,7 +31,9 @@ function Signup() {
         <InputCircle placeholder="Passwort" type="password" />
       </InputContainer>
       <ButtonContainer>
-        <Button>Konto anlegen</Button>
+        <Link to="/selection">
+          <Button>Konto anlegen</Button>
+        </Link>
       </ButtonContainer>
       <span>Du hast schon ein Konto?</span>
       <span>
