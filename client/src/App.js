@@ -1,10 +1,11 @@
 import React from 'react';
-import GlobalStyle from '.GlobalStyle';
+import GlobalStyle from './GlobalStyle';
 
 function App() {
   return (
     <>
-      <GlobalStyle></GlobalStyle>
+      <GlobalStyle />
+      My app
     </>
   );
 }

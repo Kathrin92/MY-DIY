@@ -16,7 +16,6 @@ const Input = styled.input`
     color: #ffffff;
     border: 3px #a2a2a1 solid;
   }
-
   cursor: pointer;
   &::placeholder {
     text-align: center;
