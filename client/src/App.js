@@ -4,7 +4,8 @@ import GlobalStyle from './GlobalStyle';
 function App() {
   return (
     <>
-      <GlobalStyle></GlobalStyle>
+      <GlobalStyle />
+      My app
     </>
   );
 }
