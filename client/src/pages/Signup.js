@@ -23,20 +23,20 @@ function Signup() {
         <IMG src={DIY} alt="MY DIY logo in small" />
       </Header>
       <PageHeading>
-        Plane ein DIY Projekt und verfolge deinen Fortschritt
+        <span>Plane ein DIY Projekt und verfolge deinen Fortschritt</span>
       </PageHeading>
       <InputContainer>
         <InputCircle placeholder="Name" type="text" />
         <InputCircle placeholder="E-mail" type="email" />
         <InputCircle placeholder="Passwort" type="password" />
       </InputContainer>
+      <ButtonContainer>
+        <Button>Konto anlegen</Button>
+      </ButtonContainer>
       <span>Du hast schon ein Konto?</span>
       <span>
         <Link to="/">Hier entlang!</Link>
       </span>
-      <ButtonContainer>
-        <Button>Konto anlegen</Button>
-      </ButtonContainer>
     </PageContainer>
   );
 }
