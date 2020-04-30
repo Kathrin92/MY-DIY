@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Oma's Stuhl restaurieren",
+      "author": "Max Mustermann",
+      "typ": "Restauration",
+      "days": "7",
+      "steps": "7",
+      "description": "Oma's Stuhl ist ein Erbstück, welcher in einem Wochenprojekt aufbereitet und restauriert werden soll"
+    }
+  ]
+}
