@@ -2,34 +2,32 @@ import React from 'react';
 import InputCircle from '../components/InputCircle';
 import InputLine from '../components/InputLine';
 import InputContainer from '../components/InputContainer';
-import InputHeading from '../components/InputHeading';
 import Header from '../components/Header';
 import PageHeading from '../components/PageHeading';
 import Button from '../components/Button';
 import ButtonContainer from '../components/ButtonContainer';
 import Form from '../components/Form';
+import Wrapper from '../components/Wrapper';
 import PageContainer from '../components/PageContainer';
 
 function Selection() {
   return (
     <PageContainer>
-      <Header />
-      <PageHeading>Dein neues Projekt</PageHeading>
+      <Wrapper>
+        <Header />
+        <PageHeading>Dein neues Projekt</PageHeading>
+      </Wrapper>
       <Form>
         <InputContainer>
-          <InputHeading>Project Name</InputHeading>
           <InputLine type="text" placeholder="Projektname" />
         </InputContainer>
         <InputContainer>
-          <InputHeading>Project Type</InputHeading>
           <InputCircle type="text" placeholder="Projekttyp" />
         </InputContainer>
         <InputContainer>
-          <InputHeading>Project Days</InputHeading>
           <InputCircle type="text" placeholder="Projekttage" />
         </InputContainer>
         <InputContainer>
-          <InputHeading>Project Steps</InputHeading>
           <InputLine type="text" placeholder="Projektschritte" />
         </InputContainer>
       </Form>
