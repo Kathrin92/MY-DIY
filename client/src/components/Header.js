@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import DIY from '../assets/images/MYDIYlogoSmall.png';
 
 const Container = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   width: 100%;
   height: 50px;
@@ -16,14 +17,16 @@ const Title = styled.h1`
   margin: 0.8rem;
 `;
 
-const SVG = styled.svg`
+const IMG = styled.img`
+  max-width: 300px;
+  height: auto;
   fill: #0e0f09;
 `;
 
 function Header() {
   return (
     <Container>
-      <SVG>XY</SVG>
+      <IMG src={DIY} alt="MY DIY logo in small" />
       <Title></Title>
     </Container>
   );
