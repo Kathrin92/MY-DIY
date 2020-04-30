@@ -23,7 +23,7 @@ function Signup() {
         <IMG src={DIY} alt="MY DIY logo in small" />
       </Header>
       <PageHeading>
-        <span>Plane ein DIY Projekt und verfolge deinen Fortschritt</span>
+        Plane ein DIY Projekt und verfolge deinen Fortschritt
       </PageHeading>
       <InputContainer>
         <InputCircle placeholder="Name" type="text" />
