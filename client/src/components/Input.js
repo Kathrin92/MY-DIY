@@ -5,12 +5,13 @@ const Input = styled.input`
   justify-content: center;
   text-align: center;
   background: white;
-  color: #a2a2a1;
+  color: #0e0f09;
   border: 1px #a2a2a1 solid;
   border-radius: 10px;
   box-shadow: 0px 3px 6px grey;
   font-size: 1.2rem;
   padding: 0px 0px;
+  margin: 5px;
   outline: none;
   &:hover {
     color: #ffffff;

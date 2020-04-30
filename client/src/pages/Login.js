@@ -19,6 +19,7 @@ function Login() {
     <PageContainer>
       <IMG src={DIY} alt="MY-DIY-logo built with letters and tools" />
       <Header />
+      <textarea>Das erste Werkzeug für dein Projekt</textarea>
       <InputContainer>
         <InputCircle placeholder="E-mail" type="email" />
         <InputCircle placeholder="Passwort" type="password" />
@@ -28,7 +29,7 @@ function Login() {
       </ButtonContainer>
       <textarea>Du hast noch kein Konto?</textarea>
       <Link to="/signup">
-        <span>Hier enttlang!</span>
+        <span>Hier entlang!</span>
       </Link>
     </PageContainer>
   );

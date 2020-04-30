@@ -24,7 +24,7 @@ function Header() {
   return (
     <Container>
       <SVG>XY</SVG>
-      <Title>MY DIY</Title>
+      <Title></Title>
     </Container>
   );
 }
