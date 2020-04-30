@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import HomeIcon from '../assets/icons/Icon-shoppingbag.svg';
-import ProjectListIcon from '../assets/icons/Icon-projectlist.svg';
-import CreateIcon from '../assets/icons/Icon-plus-circle.svg';
+import HomeIcon from '../assets/icons/Home';
+import ProjectListIcon from '../assets/icons/List';
+import CreateIcon from '../assets/icons/Plus';
 
 const FooterContainer = styled.div`
   display: flex;
@@ -10,7 +10,7 @@ const FooterContainer = styled.div`
   width: 100%;
 `;
 
-const FooterIcon = styled.input`
+const FooterIcon = styled.button`
   cursor: pointer;
   border: none;
   &:focus {
@@ -20,21 +20,15 @@ const FooterIcon = styled.input`
 
 export const Footer = () => (
   <FooterContainer>
-    <FooterIcon
-      type="image"
-      src={ProjectListIcon}
-      alt="icon which represents a clipboard"
-    />
-    <FooterIcon
-      type="image"
-      src={HomeIcon}
-      alt="icon which represents a house"
-    />
-    <FooterIcon
-      type="image"
-      src={CreateIcon}
-      alt="icon which represents a plus sign"
-    />
+    <FooterIcon>
+      <ProjectListIcon />
+    </FooterIcon>
+    <FooterIcon>
+      <HomeIcon />
+    </FooterIcon>
+    <FooterIcon>
+      <CreateIcon />
+    </FooterIcon>
   </FooterContainer>
 );
 
