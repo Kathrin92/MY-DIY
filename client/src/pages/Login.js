@@ -26,9 +26,9 @@ function Login() {
       <ButtonContainer>
         <Button>Lass uns loslegen!</Button>
       </ButtonContainer>
-      <textarea>Du hast noch kein Konto? </textarea>
+      <textarea>Du hast noch kein Konto?</textarea>
       <Link to="/signup">
-        <span>Hier entlang!</span>
+        <span>Hier enttlang!</span>
       </Link>
     </PageContainer>
   );
