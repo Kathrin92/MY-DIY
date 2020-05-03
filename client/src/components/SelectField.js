@@ -2,6 +2,8 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 const Select = styled.select`
+  display: flex;
+  text-align: center;
   background: white;
   color: #a2a2a1;
   border: 1px #a2a2a1 solid;
@@ -26,13 +28,9 @@ const Select = styled.select`
   }
 `;
 
-const option = styled.option`
-  text-align: center;
-`;
-
 export default function SelectField() {
   return (
-    <Select class="ui dropdown">
+    <Select>
       <option>Projekttyp</option>
       <option>Dekoration</option>
       <option>Holzarbeiten</option>
