@@ -1,5 +1,5 @@
 import React from 'react';
-import InputCircle from '../components/InputCircle';
+//import InputCircle from '../components/InputCircle';
 import InputLine from '../components/InputLine';
 import InputContainer from '../components/InputContainer';
 import Header from '../components/Header';
@@ -22,10 +22,10 @@ function Selection() {
           <InputLine type="text" placeholder="Projektname" />
         </InputContainer>
         <InputContainer>
-          <InputCircle type="text" placeholder="Projekttyp" />
+          <InputLine type="text" placeholder="Projekttyp" />
         </InputContainer>
         <InputContainer>
-          <InputCircle type="text" placeholder="Projekttage" />
+          <InputLine type="text" placeholder="Projekttage" />
         </InputContainer>
         <InputContainer>
           <InputLine type="text" placeholder="Projektschritte" />
