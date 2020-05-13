@@ -28,10 +28,10 @@ function App() {
           <Selection />
         </Route>
         <Route exact path="/projects">
-          <div>Alle Projekte</div>
+          <div>Projekteboard</div>
         </Route>
         <Route exact path="/projects/:projectId">
-          <div>Bestimmtes Projekt</div>
+          <div>Projektdetails</div>
         </Route>
       </Switch>
     </Router>
