@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 const Select = styled.select`
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   flex-basis: 100%;
   width: 80%;
@@ -16,7 +17,7 @@ const Select = styled.select`
   border: 1px #a2a2a1 solid;
   border-radius: 10px;
   box-shadow: 0px 3px 6px grey;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin: 10px;
   outline: none;
   &:hover {

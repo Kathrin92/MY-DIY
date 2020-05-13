@@ -17,7 +17,7 @@ function Projects() {
     <PageContainer>
       <Wrapper>
         <Header />
-        <PageHeading>Dein neues Projekt</PageHeading>
+        <PageHeading>Dein neues Projekt 🛠</PageHeading>
       </Wrapper>
       <Form>
         <InputContainer>

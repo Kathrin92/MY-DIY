@@ -6,6 +6,7 @@ const PageContainer = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background: #e5c091;
 `;
 
 export default PageContainer;
