@@ -3,6 +3,13 @@ import styled from '@emotion/styled';
 
 const Select = styled.select`
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 100%;
+  width: 80%;
+  padding: 2px 8px;
+  height: 25px;
+  background-color: #ffffff;
   text-align: center;
   background: white;
   color: #a2a2a1;
@@ -10,7 +17,6 @@ const Select = styled.select`
   border-radius: 10px;
   box-shadow: 0px 3px 6px grey;
   font-size: 1.1rem;
-  padding: 5px 5px;
   margin: 10px;
   outline: none;
   &:hover {
