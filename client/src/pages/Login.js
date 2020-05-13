@@ -25,7 +25,7 @@ function Login() {
         <InputCircle placeholder="Passwort" type="password" />
       </InputContainer>
       <ButtonContainer>
-        <Link to="/selection">
+        <Link to="/projects">
           <Button>Lass uns loslegen!</Button>
         </Link>
       </ButtonContainer>
