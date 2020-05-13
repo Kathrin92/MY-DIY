@@ -10,6 +10,7 @@ import Form from '../components/Form';
 import Wrapper from '../components/Wrapper';
 import PageContainer from '../components/PageContainer';
 import SelectField from '../components/SelectField';
+import SelectFieldDay from '../components/SelectFieldDay';
 
 function Projects() {
   return (
@@ -26,7 +27,7 @@ function Projects() {
           <SelectField type="text" placeholder="Projekttyp" />
         </InputContainer>
         <InputContainer>
-          <InputLine type="text" placeholder="Projekttage" />
+          <SelectFieldDay type="text" placeholder="Projekttage" />
         </InputContainer>
         <InputContainer>
           <InputLine type="text" placeholder="Projektschritte" />
