@@ -3,21 +3,14 @@ import styled from '@emotion/styled';
 
 const Select = styled.select`
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  flex-basis: 100%;
-  width: 80%;
-  padding: 2px 8px;
-  height: 25px;
-  background-color: #ffffff;
   text-align: center;
   background: white;
   color: #a2a2a1;
   border: 1px #a2a2a1 solid;
   border-radius: 10px;
   box-shadow: 0px 3px 6px grey;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  padding: 2px 8px;
   margin: 10px;
   outline: none;
   &:hover {
@@ -38,13 +31,22 @@ const Select = styled.select`
 export default function SelectField() {
   return (
     <Select>
-      <option>Projekttyp</option>
-      <option>Dekoration</option>
-      <option>Holzarbeiten</option>
-      <option>Malerarbeiten</option>
-      <option>Restauration</option>
-      <option>Upsycling</option>
-      <option>Sonstiges</option>
+      <option>Projekttage</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+      <option>11</option>
+      <option>12</option>
+      <option>13</option>
+      <option>14</option>
+      <option>15</option>
     </Select>
   );
 }

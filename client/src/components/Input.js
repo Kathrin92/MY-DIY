@@ -10,7 +10,7 @@ const Input = styled.input`
   border-radius: 10px;
   box-shadow: 0px 3px 6px grey;
   font-size: 1.2rem;
-  padding: 5px 5px;
+  padding: 2px 8px;
   margin: 10px;
   outline: none;
   &:hover {
