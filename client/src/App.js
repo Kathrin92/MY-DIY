@@ -8,7 +8,7 @@ import {
 import GlobalStyle from './GlobalStyle';
 import Login from '../src/pages/Login';
 import Signup from '../src/pages/Signup';
-import Selection from '../src/pages/Selection';
+import Projects from '../src/pages/Projects';
 
 function App() {
   return (
@@ -24,10 +24,10 @@ function App() {
         <Route exact path="/signup">
           <Signup />
         </Route>
-        <Route exact path="/projects/new">
-          <Selection />
-        </Route>
         <Route exact path="/projects">
+          <Projects />
+        </Route>
+        <Route exact path="/projectsoverview">
           <div>Projekteboard</div>
         </Route>
         <Route exact path="/projects/:projectId">

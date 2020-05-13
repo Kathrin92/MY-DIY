@@ -11,7 +11,7 @@ import Wrapper from '../components/Wrapper';
 import PageContainer from '../components/PageContainer';
 import SelectField from '../components/SelectField';
 
-function Selection() {
+function Projects() {
   return (
     <PageContainer>
       <Wrapper>
@@ -39,4 +39,4 @@ function Selection() {
   );
 }
 
-export default Selection;
+export default Projects;
