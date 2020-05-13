@@ -10,7 +10,7 @@ const Select = styled.select`
   border-radius: 10px;
   box-shadow: 0px 3px 6px grey;
   font-size: 1.1rem;
-  padding: 5px 5px;
+  padding: 2px 8px;
   margin: 10px;
   outline: none;
   &:hover {
